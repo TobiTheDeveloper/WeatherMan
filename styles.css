@@ -22,7 +22,7 @@
 }
 
 body{
-    background-image:url(images/jonathan-bowers-BqKdvJ8a5TI-unsplash.jpg) ;
+    background-image:url(./images/jonathan-bowers-BqKdvJ8a5TI-unsplash.jpg) ;
     background-size: cover;
   }
 
@@ -85,7 +85,7 @@ body{
   @media only screen and (max-width: 480px) {
     /* Styles for mobile screens */
   body{
-    background-image:url(images/jonathan-bowers-BqKdvJ8a5TI-unsplash.jpg) ;
+    background-image:url(./images/jonathan-bowers-BqKdvJ8a5TI-unsplash.jpg) ;
     background-size: cover;
   }
 
