@@ -20,3 +20,128 @@
     font-size: 18px;
     font-weight: bold;
 }
+
+body{
+    background-image:url(/images/jonathan-bowers-BqKdvJ8a5TI-unsplash.jpg) ;
+    background-size: cover;
+  }
+
+  #textHead{
+    color: white;
+    text-align: center;
+    font-size: 50px;
+  }
+
+  #cityInput{
+    border: none;
+    outline: none;
+    height: 40px;
+    width: 60%;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    border-radius: 5px;
+  }
+
+  #datetime{
+    color: white;
+    margin-top: 15px;
+    text-align: center;
+    font-size: 20px;
+  }
+
+  #searchButton{
+    background-color: black;
+    color: white;
+    height: 40px;
+    width: 140px;
+    margin-bottom: 20px;
+    margin-top: 20px;
+    border: none;
+    cursor: pointer;
+    border-radius: 10px;
+    display: inline-block;
+    margin-left: 20%;
+    margin-right: auto;
+    font-size: large;
+  }
+
+  #resetButton{
+    background-color: black;
+    color: white;
+    height: 40px;
+    width: 140px;
+    margin-bottom: 20px;
+    margin-top: 20px;
+    border: none;
+    cursor: pointer;
+    border-radius: 10px;
+    /* display: inline-block; */
+    /* margin-left: auto;
+    margin-right: auto; */
+    font-size: large;
+  }
+
+  @media only screen and (max-width: 480px) {
+    /* Styles for mobile screens */
+  body{
+    background-image:url(/images/jonathan-bowers-BqKdvJ8a5TI-unsplash.jpg) ;
+    background-size: cover;
+  }
+
+  #textHead{
+    color: white;
+    text-align: center;
+    font-size: 50px;
+  }
+
+  #cityInput{
+    border: none;
+    outline: none;
+    height: 40px;
+    width: 60%;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    border-radius: 5px;
+  }
+
+  #datetime{
+    color: white;
+    margin-top: 15px;
+    text-align: center;
+    font-size: 20px;
+  }
+
+  #searchButton{
+    background-color: black;
+    color: white;
+    height: 40px;
+    width: 140px;
+    margin-bottom: 20px;
+    margin-top: 20px;
+    border: none;
+    cursor: pointer;
+    border-radius: 10px;
+    display: inline-block;
+    margin-left: 20%;
+    margin-right: auto;
+    font-size: large;
+  }
+
+  #resetButton{
+    background-color: black;
+    color: white;
+    height: 40px;
+    width: 140px;
+    margin-bottom: 20px;
+    margin-top: 20px;
+    border: none;
+    cursor: pointer;
+    border-radius: 10px;
+    /* display: inline-block; */
+    /* margin-left: auto;
+    margin-right: auto; */
+    font-size: large;
+  }
+}

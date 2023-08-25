@@ -40,11 +40,18 @@ function updateDateTime() {
     // Update the content of the datetime div
     const datetimeDiv = document.getElementById('datetime');
     datetimeDiv.textContent = formattedDateTime;
-  }
+}
 
-  // Update the date and time initially
-  updateDateTime();
+// Update the date and time initially
+updateDateTime();
 
-  // Update the date and time every second
-  setInterval(updateDateTime, 1000);
+// Update the date and time every second
+setInterval(updateDateTime, 1000);
+
+function resetButton(){
+    document.getElementById("cityInput").value = ''
+}
+
+
+
     
