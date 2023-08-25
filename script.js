@@ -28,4 +28,23 @@ async function getWeatherData(city) {
         console.error('Error fetching weather data:', error);
     }
 }
+
+function updateDateTime() {
+    // Get the current date and time
+    const now = new Date();
+
+    // Format the date and time
+    const options = { weekday: 'long', year: 'numeric', month: 'long', day: 'numeric', hour: 'numeric', minute: 'numeric', second: 'numeric', timeZoneName: 'short' };
+    const formattedDateTime = now.toLocaleDateString('en-US', options);
+
+    // Update the content of the datetime div
+    const datetimeDiv = document.getElementById('datetime');
+    datetimeDiv.textContent = formattedDateTime;
+  }
+
+  // Update the date and time initially
+  updateDateTime();
+
+  // Update the date and time every second
+  setInterval(updateDateTime, 1000);
     
