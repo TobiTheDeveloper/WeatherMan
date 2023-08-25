@@ -1,5 +1,5 @@
 .weather-container {
-    width: 300px;
+    width: 100%;
     margin: auto;
     text-align: center;
     font-family: Arial, sans-serif;
@@ -50,29 +50,36 @@ body{
     font-size: 20px;
   }
 
+  .buttons{
+    display: flex;
+    margin-top: 20px;
+    margin-bottom: 20px;
+  }
+
+  .buttonCenter{
+    justify-content: space-around;
+  }
+
+/* search button */
   #searchButton{
     background-color: black;
     color: white;
     height: 40px;
     width: 140px;
-    margin-bottom: 20px;
-    margin-top: 20px;
     border: none;
     cursor: pointer;
     border-radius: 10px;
-    display: inline-block;
-    margin-left: 20%;
-    margin-right: auto;
+    margin-left: 20px;
     font-size: large;
   }
 
+/* rest button, am yet to figure out how to make the button reset the output  */
   #resetButton{
     background-color: black;
     color: white;
     height: 40px;
     width: 140px;
-    margin-bottom: 20px;
-    margin-top: 20px;
+    margin-right: 20px;
     border: none;
     cursor: pointer;
     border-radius: 10px;
@@ -81,6 +88,95 @@ body{
 
   @media only screen and (max-width: 480px) {
     /* Styles for mobile screens */
+  body{
+    background-image:url(./images/jonathan-bowers-BqKdvJ8a5TI-unsplash.jpg) ;
+    background-size: cover;
+  }
+/* This is for the weather dashboard text */
+  #textHead{
+    color: white;
+    text-align: center;
+    font-size: 30px;
+  }
+/* The input box */
+  #cityInput{
+    border: none;
+    outline: none;
+    height: 40px;
+    width: 60%;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    border-radius: 5px;
+  }
+
+  label {
+    display: block;
+    text-align: left;
+    font: bold 0.8em Sans-Serif;
+    text-transform: uppercase;
+  }
+
+  .left-label {
+    float: left;
+    padding: 8px 5px 0 0;
+  }
+
+  input[type=text] {
+    padding: 5px;
+    text-indent: 10;
+  }
+
+  [placeholder]:focus::-webkit-input-placeholder{
+  transition: text-indent 0.5s 0.5s ease; 
+  text-indent: -100%;
+  opacity: 1;
+  }
+
+/* Date and time */
+  #datetime{
+    color: white;
+    margin-top: 15px;
+    text-align: center;
+    font-size: 20px;
+  }
+
+  .buttons{
+    display: flex;
+  }
+
+  .buttonCenter{
+    justify-content: center;
+  }
+
+/* search button */
+  #searchButton{
+    background-color: black;
+    color: white;
+    height: 40px;
+    width: 140px;
+    border: none;
+    cursor: pointer;
+    border-radius: 10px;
+    margin-left: 20px;
+    font-size: large;
+  }
+
+/* rest button, am yet to figure out how to make the button reset the output  */
+  #resetButton{
+    background-color: black;
+    color: white;
+    height: 40px;
+    width: 140px;
+    margin-right: 20px;
+    border: none;
+    cursor: pointer;
+    border-radius: 10px;
+    font-size: large;
+  }
+}
+
+@media only screen and (min-width: 480px) and (max-width: 768px) {
   body{
     background-image:url(./images/jonathan-bowers-BqKdvJ8a5TI-unsplash.jpg) ;
     background-size: cover;
