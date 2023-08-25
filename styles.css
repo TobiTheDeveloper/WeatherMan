@@ -1,0 +1,22 @@
+.weather-container {
+    width: 300px;
+    margin: auto;
+    text-align: center;
+    font-family: Arial, sans-serif;
+}
+
+.weather-info {
+    border: 1px solid #ccc;
+    padding: 20px;
+    background-color: #f0f0f0;
+}
+
+.temperature {
+    font-size: 24px;
+    font-weight: bold;
+}
+
+.city {
+    font-size: 18px;
+    font-weight: bold;
+}
